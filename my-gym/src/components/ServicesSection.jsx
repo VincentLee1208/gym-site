@@ -18,16 +18,17 @@ const ServicesSection = () => {
     text: text,
     url: defaultImg
   });
+
+  const backgroundStyle = {
+    background: `linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(${state.url}), no-repeat`,
+    backgroundSize: 'cover',
+  }
  
 
   return (
     <div className='services_section'>
         <div className='services_container'>
-            <div className='services_text' style={{
-              background: `linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(${state.url})`,
-              backgroundSize: '100% 100%',
-              backgroundRepeat: 'no-repeat'
-            }}>
+            <div className='services_text' style={backgroundStyle}>
               <h1>
               {state.title}
               </h1>

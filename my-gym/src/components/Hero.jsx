@@ -11,7 +11,7 @@ const Hero = () => {
                 APEX
             </center>
             <center className='subtitle'>
-                SPORTS SYSTEMS
+                PERFORMANCE
             </center>
         </div>
 
