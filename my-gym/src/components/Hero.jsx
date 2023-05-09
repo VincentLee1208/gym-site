@@ -22,7 +22,7 @@ const Hero = () => {
 
             <ul className='hero_list'>
                 <li>
-                    NUTRITION
+                NUTRITION
                 </li>
 
                 <li>
