@@ -1,0 +1,30 @@
+.footer_section {
+    position: absolute;
+    outline: solid white;
+    margin-top: 1400px;
+    width: 98.9%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_logo {
+    outline: solid white;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.footer_socialmedia {
+    outline: solid white;
+    width: 100px;
+    height: 100px;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: auto;
+    margin-left: auto;
+}
+

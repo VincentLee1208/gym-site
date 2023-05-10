@@ -48,7 +48,7 @@ td {
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
     background-color: #191e24;
-    border: solid gray 2px;
+    border: solid gray 1px;
 }
 
 td:hover {
