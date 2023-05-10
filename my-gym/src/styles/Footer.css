@@ -1,30 +1,58 @@
 .footer_section {
     position: absolute;
-    outline: solid white;
-    margin-top: 1400px;
+    margin-top: 1410px;
     width: 98.9%;
     height: 100px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .footer_logo {
-    outline: solid white;
-    align-items: center;
+    margin-top: 20px;
     justify-content: center;
-    width: 100px;
+    width: 80px;
 }
 
 .footer_socialmedia {
-    outline: solid white;
-    width: 100px;
-    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 130px;
+    height: 50px;
+}
+
+.footer_information p {
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.footer_links {
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 0.7rem;
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 80px;
     max-height: auto;
     margin-left: auto;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.link:hover {
+    color: #F7c414;
+    transition: 0.2s;
 }
 
