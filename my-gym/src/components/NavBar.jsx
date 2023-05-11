@@ -44,6 +44,9 @@ const NavBar = () => {
                 <Link to='/' className='hamb_link' onClick={e => setState(false)}>
                     Pricing
                 </Link>
+                <Link to='/' className='hamb_link' onClick={e => setState(false)}>
+                    Contact
+                </Link>
             </div>
         </div>
     ) : (

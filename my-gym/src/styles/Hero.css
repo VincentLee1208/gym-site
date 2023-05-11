@@ -5,6 +5,10 @@
     border-radius: 5px;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/hero/hero7.jpg");
     background-size: cover;
+
+    @media (max-width: 1000px) {
+        background-image: linear-gradient(#434343 0%, black 100%);
+    } 
 }
 
 .hero_container {
@@ -74,4 +78,106 @@
     margin-left: 10px;
     color: #F7c414;
     margin-bottom: 10px;
+}
+
+.mobile_hero_container {
+    display: none;
+    @media (max-width: 1000px) {
+        display: inline;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+    }
+}
+
+.mobile_title {
+    color: white;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 4rem;
+
+    @media (min-width: 500px) {
+        font-weight: 700;
+        font-size: 6rem;
+    }
+}
+
+.mobile_subtitle {
+    color: #F7c414;
+    font-weight: 600;
+    font-size: 2rem;
+
+    @media (min-width: 500px) {
+        font-weight: 600;
+        font-size: 3rem;
+    }
+}
+
+.mobile_hero_container p {
+    margin-top: 2rem;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.mobile_btns {
+    display:flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 30px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 500px) {
+        flex-direction: row;
+        gap: 100px;
+    }
+}
+
+.mobile_sign-in {
+    width: 150px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    height: 75px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mobile_sign-in:hover {
+    width: 175px;
+    height: 90px;
+    background-color: #F7c414;
+    transition: 0.4s;
+}
+
+.mobile_register {
+    width: 150px;
+    text-decoration: none;
+    background-color: #F7c414;
+    color: black;
+    border-radius: 25px;
+    height: 75px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mobile_register:hover {
+    width: 175px;
+    height: 90px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.btn_text {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    margin-top: 19%;
+    font-weight: 600;
 }
