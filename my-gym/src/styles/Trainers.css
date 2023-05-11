@@ -1,0 +1,45 @@
+.trainers_section {
+    position: absolute;
+    margin-top: 1410px;
+    width: 98.9%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    outline: solid #F7c414;
+}
+
+.trainers_title h1 {
+    text-align: center;
+    color: #F7c414;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
+
+.trainers_content {
+    display: flex;
+    gap: 30px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainers_image {
+    width: 200px;
+}
+
+.trainers_info {
+    width: 700px;
+    height: 200px;
+    color: white;
+    margin-bottom: 120px;
+}
+
+.trainer_name h1 {
+    color: white;
+    font-weight: 600;
+}
+
+.trainer {
+    width: 200px;
+}

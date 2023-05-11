@@ -8,12 +8,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .navbar_logo {
     margin-left: 2rem;
     width: 14.5rem;
     height: 100%;
+
+    @media (max-width: 1000px) {
+        width: 100px;
+        margin-left: 0;
+        outline: solid white;
+    }
 }
 
 .navbar_logo img {
@@ -28,6 +35,10 @@
     list-style: none;
     gap: 4rem;
     margin-right: 2rem;
+
+    @media (max-width: 1000px) {
+        display: none;
+    }
 }
 
 .navbar_links a {
@@ -49,6 +60,10 @@
     font-weight: 400;
     align-items: center;
     margin-right: 1rem;
+
+    @media (max-width: 1000px) {
+        display: none;
+    }
 }
 
 .sign-in {
@@ -76,3 +91,54 @@
     color: black;
     transition: 0.2s;
 }
+
+.mobile_navbar {
+    display: none;
+    @media (max-width: 1000px) {
+        display: flex;
+    }
+}
+
+.mobile_navbar img {
+    margin-right: 1.5rem;
+}
+
+.menu_panel {
+    outline: solid white;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger_close {
+    float: right;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.hamburger_links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    gap: 20px;
+}
+
+.hamb_link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.hamb_link:hover {
+    color: #F7c414;
+    transition: 0.2s;
+}
+
+

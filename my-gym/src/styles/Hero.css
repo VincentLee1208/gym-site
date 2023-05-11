@@ -17,6 +17,10 @@
     height: 700px;
     width: 100%;
     background-color: transparent;
+
+    @media (max-width: 1000px) {
+        display: none;
+    }   
 }
 
 .hero_contaner_left {
